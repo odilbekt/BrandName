@@ -350,3 +350,39 @@ a {
 .site__among-img-one {
 	max-width: 502px;
 }
+
+.get-quality-education {
+	max-width: 1044px;
+}
+
+.get-quality-education__item {
+	text-align: left;
+	padding-top: 112px;
+	padding-bottom: 112px;
+}
+
+.get-quality-education__list {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.2px;
+	color: var(--purple-color);
+	margin-bottom: 10px;
+}
+
+.get-quality-education__text {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 1.3;
+	letter-spacing: 0.2px;
+	color: var(--white-color);
+	margin-bottom: 10px;
+}
+
+.get-quality-education__mini-text {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.5;
+	letter-spacing: 0.2px;
+	color: var(--white-color);
+}
