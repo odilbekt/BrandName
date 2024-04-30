@@ -69,6 +69,8 @@ p {
 
 ul {
 	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 a {
@@ -481,7 +483,6 @@ a {
 
 .get-quality-education__bottom-reason {
 	display: flex;
-
 	flex-direction: column;
 	padding: 25px 25px 35px;
 }
@@ -585,8 +586,12 @@ a {
 }
 
 .testimonials-wrapper {
-	width: 508px;
-	height: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	max-width: 508px;
+	width: 100%;
 	background-color: var(--white-color);
 }
 
@@ -607,7 +612,6 @@ a {
 	letter-spacing: 0.2px;
 	color: var(--mini-textcolor);
 	margin-bottom: 15px;
-	padding-left: 94px;
 }
 
 .testimonials-for-stars {
@@ -620,7 +624,6 @@ a {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin-left: 157px;
 }
 
 .testimonials-four-stars {
@@ -638,7 +641,6 @@ a {
 	line-height: 1.5;
 	letter-spacing: 0.1px;
 	color: var(--dark-purple);
-	margin-left: 200px;
 	margin-bottom: 5px;
 }
 
@@ -648,7 +650,6 @@ a {
 	line-height: 1.7;
 	letter-spacing: 0.2px;
 	color: var(--mini-textcolor);
-	margin-left: 220px;
 	margin-bottom: 30px;
 }
 
@@ -656,6 +657,13 @@ a {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+}
+
+.testimonials-first-tipe {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .testimonials-first-tipe:not(:last-child) {
@@ -690,21 +698,55 @@ a {
 	padding-bottom: 112px;
 }
 
-.testimonials-under-image1 {
-	display: flex;
-	flex-direction: column;
-	align-items: start;
-	justify-content: space-between;
-	background-image: url(../img/old-woman.jpg);
-	background-position: center center;
-	background-size: cover;
-	background-repeat: no-repeat;
+.testimonials-under-color-bg {
+	background-color: var(--white-color);
+}
+
+.testimonials-under-image-woman {
 	width: 238px;
 	height: 231px;
-	padding-top: 112px;
+	border-radius: 20px 20px 0px 0px;
+}
+
+.testimonials-under-tegs {
+	max-width: 238px;
+	background-color: var(--white-color);
+	border-radius: 20px;
+}
+
+.testimonials-under-text {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.7;
+	letter-spacing: 0.1px;
+	color: var(--dark-purple);
+	margin-bottom: 10px;
+}
+
+.testimonials-under-text-mini {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1.3;
+	letter-spacing: 0.2px;
+	color: var(--mini-textcolor);
+	margin-bottom: 10px;
+}
+
+.testimonials-under-icons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.testimonials-for-icons {
+	text-align: center;
+	border-top: 20px;
+}
+
+.testimonials-under-icons-link1 {
 	margin-bottom: 30px;
 }
 
-.testimonials-under-bg {
-	background-color: var(--white-color);
+.testimonials-under-icons-link1:not(:last-child) {
+	margin-right: 20px;
 }
