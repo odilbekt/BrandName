@@ -765,6 +765,15 @@ a {
 	margin-right: 20px;
 }
 
+.testimonials-under-icons-link1 svg {
+	color: #8d5cf6;
+	transition: color 0.4s ease;
+}
+
+.testimonials-under-icons-link1 svg:hover {
+	color: #252b42;
+}
+
 .newsletter {
 	max-width: 692px;
 	width: 100%;
